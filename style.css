@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1546BF;
+    position: relative;
+}
+#page1>img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+#page1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 340px;
+    color: #96FFCA;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    position: relative;
+}
+#nav img{
+    width: 3%;
+}
+#nav>a{
+    text-decoration: none  ;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+#center-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#center-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+#center-nav span a{
+    text-decoration: rgb(65, 204, 246) underline  wavy;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #1546BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#page2 h6{
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 55px;
+    text-align: center;
+}
+#page2 h6::after{
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 24px;
+    height: 7px;
+    background-color: #96FFCA;
+    transform: skewY(-16deg);
+    margin: -3.5px -12px;
+}
+#page2 h1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#page2 h5{
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+     background: linear-gradient(120deg, #1544C0 ,#214FC6  );
+    position: relative;
+}
+#page3 #img1{
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  left: -15%;
+  top: 5%;
+}
+#page3 #img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#page3 #img2{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    left: 40%;
+    bottom: 33%;
+  }
+  #page3 #img2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#page3 h6{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+#page3 h6::after{
+    content: "";
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    width: 24px;
+    height: 7px;
+    background-color: #96FFCA;
+    transform: skewY(-16deg);
+    margin: 3.5px -12px;
+}
+
+#page3 h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 800;
+    color: #fff;
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 95px;
+}
+
+#page4{
+    height: 70vh;
+    width: 100%;
+    background-color:#eae5e5 ;
+    position: relative;
+}
+#page4 #bg-img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 43%;
+    top: 13%;
+}
+#page4 #hand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12%;
+    top: 13%;
+}
